@@ -1,10 +1,10 @@
-# Readme zum deployment auszuführen
+# Readme um deployment auszuführen
 
-## Als erstes muss man sich beim azure einloggen.
+## Als Erstes muss man sich in Azure einloggen.
 * az login
 
-## Danach muss man ein resource group erstellen mit dem folgenden befehl
+## Danach muss man eine Resource group erstellen mit dem folgenden Befehl:
 * az group create --name lab1PeterVadleRG --location "North Europe"
 
-## Nach dem man mit dem template und den parameters file fertig ist die folgende command in azure cli ausführen
+## Nachdem man mit dem Template und dem Parameters-file fertig ist, ist der folgende Command in Azure cli auszuführen:
 * az deployment group create --resource-group lab1PeterVadleRG --template-file .\azuredeploy.json --parameters .\azuredeploy.parameters.json
