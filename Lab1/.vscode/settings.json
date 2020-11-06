@@ -1,0 +1,5 @@
+{
+    "appService.deploySubpath": "myExpressApp",
+    "appService.showBuildDuringDeployPrompt": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/c033053b-1bf9-4848-ad45-889e445f304e/resourceGroups/lab1PeterVadleRG/providers/Microsoft.Web/sites/peterPacman"
+}
