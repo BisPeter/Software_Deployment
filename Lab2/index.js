@@ -9,3 +9,9 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
+
+module.exports = {
+  sayHello : function(){
+    return 'hello';
+  }
+}
