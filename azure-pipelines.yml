@@ -14,6 +14,12 @@ steps:
   inputs:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
+- task: PublishTestResults@2
+  condition: succeededOrFailed()
+  inputs:
+    testRunner: JUnit
+    testResultsFiles: '**/TEST-RESULTS.xml'
 - script: |
     npm install
+    npm install mocha
   displayName: 'npm install and build'
