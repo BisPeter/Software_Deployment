@@ -22,6 +22,7 @@ steps:
     testResultsFiles: '**/TEST-RESULTS.xml'
 - script: |
     npm install
+    install mocha-junit-reporter
     install --global mocha
-    ./node_modules/.bin/mocha test
+
   displayName: 'npm install and build'
