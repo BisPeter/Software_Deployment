@@ -24,5 +24,5 @@ steps:
     npm install
     npm install mocha-junit-reporter
     npm install --global mocha
-    npm test -- --reporter mocha-junit-reporter --timeout 30000
+    npm run test 
   displayName: 'npm install and build'
