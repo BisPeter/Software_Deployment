@@ -15,5 +15,6 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 - script: |
-    node index.js
+    npm install
+    npm run build
   displayName: 'npm install and build'
