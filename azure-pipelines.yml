@@ -22,6 +22,6 @@ steps:
     testResultsFiles: '**/TEST-RESULTS.xml'
 - script: |
     npm install
-    npm install mocha
+    install --global mocha
     ./node_modules/.bin/mocha
   displayName: 'npm install and build'
