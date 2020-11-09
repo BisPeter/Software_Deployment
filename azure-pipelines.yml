@@ -17,6 +17,8 @@ steps:
   
 - script: |
     ls
+    cd Simple_Web_App
+    ls
     npm install
     npm install mocha-junit-reporter
     npm install --global mocha
