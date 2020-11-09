@@ -17,8 +17,8 @@ steps:
   
 - script: |
     npm install
-    npm run build
-    npm test
+    npm install mocha-junit-reporter
+    npm install --global mocha
   displayName: 'npm install and build'
   
 - task: PublishTestResults@2
