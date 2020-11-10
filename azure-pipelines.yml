@@ -28,6 +28,12 @@ steps:
     testRunner: JUnit
     testResultsFiles: '**/test-results.xml'
     searchFolder: '$(Build.SourcesDirectory)/Simple_Web_App'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/Simple_Web_App'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
     
 - task: AzureRmWebAppDeployment@4
   inputs:
