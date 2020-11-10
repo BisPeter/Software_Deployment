@@ -28,3 +28,13 @@ steps:
     testRunner: JUnit
     testResultsFiles: '**/test-results.xml'
     searchFolder: '$(Build.SourcesDirectory)/Simple_Web_App'
+    
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Azure für Bildungseinrichtungen(1)(c033053b-1bf9-4848-ad45-889e445f304e)'
+    appType: 'webAppLinux'
+    WebAppName: 'Lab1PeterVadle'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/Simple_Web_App'
+    
+
