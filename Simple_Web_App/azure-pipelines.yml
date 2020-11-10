@@ -1,4 +1,3 @@
-
 # Node.js
 # Build a general Node.js project with npm.
 # Add steps that analyze code, save build artifacts, deploy, and more:
@@ -18,6 +17,7 @@ steps:
   
 - script: |
     npm install
+    chmod 0777 ./node_modules/.bin/mocha
     npm test
   displayName: 'npm install and build'
   workingDirectory: '$(Build.SourcesDirectory)/Simple_Web_App'
@@ -28,3 +28,17 @@ steps:
     testRunner: JUnit
     testResultsFiles: '**/test-results.xml'
     searchFolder: '$(Build.SourcesDirectory)/Simple_Web_App'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/Simple_Web_App'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
+    
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'Azure für Bildungseinrichtungen(2)(c033053b-1bf9-4848-ad45-889e445f304e)'
+    appType: 'webAppLinux'
+    appName: 'Lab1PeterVadle'
+    package: '$(System.DefaultWorkingDirectory)/Simple_Web_App'
+    customWebConfig: '-Handler iisnode -NodeStartFile index.js -appType node'
