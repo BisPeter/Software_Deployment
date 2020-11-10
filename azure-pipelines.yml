@@ -35,12 +35,12 @@ steps:
     ArtifactName: 'drop'
     publishLocation: 'Container'
     
-- task: AzureRmWebAppDeployment@4
+- task: AzureWebApp@1
   inputs:
-    ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure für Bildungseinrichtungen(1)(c033053b-1bf9-4848-ad45-889e445f304e)'
+    azureSubscription: 'Azure für Bildungseinrichtungen(2)(c033053b-1bf9-4848-ad45-889e445f304e)'
     appType: 'webAppLinux'
-    WebAppName: 'Lab1PeterVadle'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/Simple_Web_App'
+    appName: 'Lab1PeterVadle'
+    package: '$(System.DefaultWorkingDirectory)/Simple_Web_App'
+    customWebConfig: '-Handler iisnode -NodeStartFile index.js -appType node'
     
 
