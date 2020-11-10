@@ -16,14 +16,10 @@ steps:
   displayName: 'Install Node.js'
   
 - script: |
-    ls
-    cd Simple_Web_App
-    ls
     npm install
-    npm install mocha-junit-reporter
-    npm install --global mocha
     npm test
   displayName: 'npm install and build'
+  workingDirectory: '$(Build.SourcesDirectory)/Simple_Web_App'
   
 - task: PublishTestResults@2
   condition: succeededOrFailed()
