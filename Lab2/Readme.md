@@ -6,25 +6,25 @@
 
 ![Build-Succeded](Pictures/Screenshot_Build_succesful.png)
 
-## Screenshot von erfolgreichen Test
+## Screenshot von erfolgreichem Test
 ![Test-Succeded](Pictures/Screenshot_Build_And_Test_succesful.png)
 
-## Auf diesem screenshot sieht man  einen fehgesclagenen test. Wo der Deployment nicht erfolgreich war.
+## Auf diesem Screenshot sieht man einen fehgeschlagenen Test. Hier war das Deployment nicht erfolgreich.
 ![Test-Succeded](Pictures/Screenshot_Build_Failed.png)
 
-## Es wird hier eine neue Release pipeline erstellt, so dass die deployment bestätigt werden muss.
+## Es wird hier eine neue Release Pipeline erstellt, so dass das Deployment bestätigt werden muss.
 ![Release-Pipeline](Pictures/Screenshot_Release_Pipeline_Approval.png)
 
-## Screenshot über die Bestätigungs aufruf für deployen.
+## Screenshot von dem Bestätigungsaufruf für das Deployen.
 ![Release-Pipeline-Approval](Pictures/Screenshot_Release_Pipeline_Approval.png)
 
-## Screenshot über einen erfolgreichen Deployment.
+## Screenshot von einem erfolgreichen Deployment.
 ![Succesfull-Deployment](Pictures/Screenshot_Release_Pipeline_Approval.png)
 
-## Screenshot über ein Beispiel für das automatisches deployen.
+## Screenshot von einem Beispiel für das automatische Deployen.
 ![Automated-Release-Pipeline](Pictures/Screenshot_Automated_Deployment.png)
 
-## Als Letzte schritt habe ich die Applikationsinsights zum Projekt dazugegeben.
+## Als letzten Schritt habe ich die Applikationsinsights zum Projekt dazugegeben.
 ![Succesfull-Deployment](Pictures/Screenshot_Insights_1.png)
 ![Succesfull-Deployment](Pictures/Screenshot_Insights_2.png)
 
