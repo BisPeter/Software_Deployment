@@ -19,7 +19,7 @@
 ![Release-Approval](Pictures/Screenshot_Release_Pipeline_Approval.png)
 
 ## Screenshot von einem erfolgreichen Deployment.
-![Release-Succesful](Pictures\Succesful_Release.png)
+![Release-Succesful](Pictures/Succesful_Release.png)
 
 ## Screenshot von einem Beispiel für das automatische Deployen.
 ![Automated-Release-Pipeline](Pictures/Screenshot_Automated_Deployment.png)
