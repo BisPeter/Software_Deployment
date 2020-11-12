@@ -13,10 +13,10 @@
 ![Test-Succeded](Pictures/Screenshot_Build_Failed.png)
 
 ## Es wird hier eine neue Release Pipeline erstellt, so dass das Deployment bestätigt werden muss.
-![Release-Pipeline](Pictures/Screenshot_Release_Pipeline_Approval.png)
+![Release-Pipeline](Pictures/Screenshot_Initializing_Release_Pipeline_With_Approval.png)
 
 ## Screenshot von dem Bestätigungsaufruf für das Deployen.
-![Release-Pipeline-Approval](Pictures/Screenshot_Release_Pipeline_Approval.png)
+![Release-Pipeline-Approval](Pictures/Screenshot_Release_Succesful.png)
 
 ## Screenshot von einem erfolgreichen Deployment.
 ![Succesfull-Deployment](Pictures/Screenshot_Release_Pipeline_Approval.png)

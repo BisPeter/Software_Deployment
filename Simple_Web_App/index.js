@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000
 const appInsights = require('applicationinsights');
 
 
-appInsights.setup('8029cdba-03e6-42a2-ba5f-033bb7819b7d').start();
+appInsights.setup('bd018e96-762a-4bf9-af8f-9877c74a0c7f').start();
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
