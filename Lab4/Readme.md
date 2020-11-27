@@ -73,3 +73,6 @@ kubectl get services
 ```
 ![Runnig services](Running_Services.PNG)
 Mit dem EXTERNAL-IP können wir nun die seite afurufen.
+![Runnig services](Running_Site.PNG)
+Screenshot vom Cluster:
+![Runnig services](Cluster.PNG)
