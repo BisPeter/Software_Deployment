@@ -71,5 +71,5 @@ Mit dem folgenden befehl erhalten wir die laufende services
 ```
 kubectl get services
 ```
-
+![Runnig services](Running_Services.PNG)
 Mit dem EXTERNAL-IP können wir nun die seite afurufen.
